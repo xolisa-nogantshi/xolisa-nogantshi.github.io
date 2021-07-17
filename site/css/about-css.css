@@ -46,6 +46,8 @@ ul, h1, h2, p{
     z-index: 1;
 }
 
+
+
 /*Head Section*/
 header{
     width: 100% !important;
@@ -123,6 +125,7 @@ nav ul li a:hover{
     font-size: 1.7rem !important;
     color: #79866c;
     padding: 1px !important;
+	border-radius:5px;
     border-left: 0.5px solid#4e5547;
     border-bottom: 0.5px solid#4e5547;
     box-shadow: 5px 10px 30px rgba(67, 82, 61, 0.411);
@@ -208,6 +211,7 @@ nav ul{
     margin: auto;
     padding: 10px !important;
     background: #191a17;
+    background: #191a17;
 }
 #stack .main{
     width: 100% !important;
@@ -223,7 +227,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: linear-gradient(#B7BBB5,#B9BDB7);
+   
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 #stack .boxes .box{
@@ -302,10 +306,12 @@ nav ul{
         width: 100px !important;
         align-items: center;
         justify-content: center;
+		text-align:center;
     }
  
     #stack .boxes .box img{
         width: 30px !important;
         height: 30px !important;
+
     }
 }

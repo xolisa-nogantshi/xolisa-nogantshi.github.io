@@ -128,6 +128,7 @@ nav ul li a:hover{
     font-size: 1.7rem;
     color: #79866c;
     padding: 1px;
+	border-radius:5px;
     border-left: 0.5px solid#4e5547;
     border-bottom: 0.5px solid#4e5547;
     box-shadow: 5px 10px 30px rgba(67, 82, 61, 0.411);
@@ -311,6 +312,9 @@ nav ul{
     text-align: justify;
     padding: 5px;
 }
+#main-projects .boxes .box #sec-line{
+	font-size:9px;
+}
 #main-projects .boxes .box p > a{text-decoration: none;}
 #main-projects .boxes .box h3{
     padding: 5px;
@@ -352,6 +356,9 @@ nav ul{
     #main-body .main p{
         font-size: 0.8rem;
     }
+	#main-projects .boxes .box #sec-line{
+	 font-size: 0.9rem;
+}
     #main-projects .main,
     .boxes{
         display: flex;
